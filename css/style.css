@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    margin: 15px 5px;
+}
+.left{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.container .right{
+    background-color: #121111;
+    margin-left:6px;
+    width: 75vw;
+}
+.home{
+    padding: 15px;
+    margin-left: 9px;
+}
+.home-images{
+   display: flex;
+   gap: 8px;
+   padding: 10px 20px;
+}
+.library{
+    height: 67vh;
+    margin-left:9px;
+}
+.library ul li{
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+    align-items: center;
+}
+.library ul{
+    display: flex;
+    gap: 9px;
+}
+.add{
+    margin-left: 80px;
+}
+.library-top{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.home ul{
+    gap: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 0px;
+}
+.home ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-navbar{
+    height: 70px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.card img{
+    border-radius: 5px;
+    width: 100%;
+    object-fit: contain;
+}
+.cardcontainer{
+    overflow-y: scroll;
+    max-height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 30px;
+}
+.spotifyplaylist > h1{
+    margin-left: 30px;
+}
+.card{
+    position: relative  ;
+    background-color: #393838;
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.signupbtn{
+    background-color: #121111;
+    color: white;
+    border: none;
+    font-size: 16px;
+    margin-right: 6px;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+.signupbtn:hover{
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+}
+.loginbtn{
+    background-color: white;
+    color: black;
+    border: none;
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 6px;
+    padding: 6px 10px;
+}
+.loginbtn:hover{
+    border-radius: 15px;
+    font-style: bold;
+}
+.playbtn{
+    position: absolute;
+    right: 30px;
+    bottom: 120px;
+    opacity: 0;
+    transition: ease-out 1s;
+}
+.card:hover{
+    .playbtn{
+        right: 30px;
+        bottom: 120px;
+        opacity: 1;
+    }
+}
+.audioplayer{
+    width: 70vw;
+    position: absolute;
+    bottom: 5vh;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    justify-content: center;
+    gap: 10px;
+    height: 15vh;
+    background-color: #121111;
+}
+.textlogo{
+        font-family: 'DynaPuff', system-ui;
+        color: #4A90E2;
+}
+
+

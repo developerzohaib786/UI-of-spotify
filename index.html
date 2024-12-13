@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utility.css" />
+  </head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+  </style>
+  <body>
+    <div class="container justify-content display bg-black">
+      <div class="left rounded">
+        <div class="home bg-grey rounded">
+          <li class="display home-images">
+            <h2 class="textlogo">Audio Player</h2>
+          </li>
+          <ul>
+            <li class="display home-images">
+              <img
+                src="images/home.png"
+                width="20px"
+                height="20px"
+                alt="Home"
+              />
+              <h3>Home</h3>
+            </li>
+            <li class="display home-images">
+              <img
+                src="images/search.png"
+                width="20px"
+                height="20px"
+                alt="Search"
+              />
+              <h3>Search</h3>
+            </li>
+          </ul>
+        </div>
+        <div class="library bg-grey rounded">
+          <div class="library-top">
+            <ul>
+              <li>
+                <img
+                  width="30px"
+                  height="30px"
+                  src="images/library.png"
+                  alt="Library"
+                />
+              </li>
+              <li><h2>Your Library</h2></li>
+              <li>
+                <img
+                  class="add"
+                  width="20px"
+                  height="20px"
+                  src="images/add.png"
+                  alt="add"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="right bg-grey rounded">
+        <div class="right-navbar">
+          <div class="nav">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="28"
+              height="28"
+              color="#ffffff"
+              fill="none"
+            >
+              <path
+                d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="28"
+              height="28"
+              color="#ffffff"
+              fill="none"
+            >
+              <path
+                d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="buttons">
+            <button class="signupbtn">Signup</button>
+            <button class="loginbtn">Login</button>
+          </div>
+        </div>
+        <div class="spotifyplaylist">
+          <h1>Your Playlist</h1>
+          <div class="cardcontainer">
+            <div class="card">
+<svg class="playbtn" height="64px" width="64px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-51.2 -51.2 614.40 614.40" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle style="fill:<svg viewBox=" 0="" 32="" 32"="" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 32 32"><path d="M16 0C7.164 0 0 7.164 0 16s7.164 16 16 16 16-7.164 16-16S24.836 0 16 0zm-6 24V8l16.008 8L10 24z" fill="#4a90e2" class="fill-4e4e50"></path>;" cx="256" cy="256" r="245.801"&gt;</circle> <polygon style="fill:#3f91ee;" points="195.825,391.629 376.351,256 195.825,120.371 "></polygon> <g> <path style="fill:#3f91ee;" d="M256,512c-68.381,0-132.667-26.628-181.019-74.98C26.628,388.667,0,324.38,0,256 S26.628,123.333,74.981,74.98C123.333,26.628,187.619,0,256,0s132.667,26.628,181.019,74.98C485.372,123.333,512,187.62,512,256 s-26.628,132.667-74.981,181.02C388.667,485.372,324.381,512,256,512z M256,20.398C126.089,20.398,20.398,126.089,20.398,256 S126.089,491.602,256,491.602S491.602,385.911,491.602,256S385.911,20.398,256,20.398z"></path> <path style="fill:#3f91ee;" d="M195.824,401.828c-1.553,0-3.115-0.355-4.557-1.075c-3.458-1.727-5.641-5.26-5.641-9.124V120.371 c0-3.864,2.185-7.397,5.641-9.124c3.458-1.726,7.593-1.351,10.685,0.97l180.526,135.629c2.564,1.927,4.073,4.948,4.073,8.154 s-1.508,6.228-4.073,8.154L201.951,399.783C200.15,401.137,197.994,401.828,195.824,401.828z M206.024,140.791v230.418L359.371,256 L206.024,140.791z"></path> <path style="fill:#3f91ee;" d="M256,473.243c-5.632,0-10.199-4.566-10.199-10.199c0-5.633,4.567-10.199,10.199-10.199 c52.815,0,102.404-20.633,139.633-58.1c3.973-3.996,10.429-4.015,14.425-0.045c3.995,3.971,4.016,10.428,0.046,14.424 C369.016,450.471,314.287,473.243,256,473.243z"></path> <path style="fill:#3f91ee;" d="M430.396,377.825c-1.886,0-3.793-0.522-5.498-1.617c-4.741-3.041-6.118-9.351-3.076-14.092 c1.514-2.36,2.998-4.788,4.411-7.216c2.834-4.867,9.077-6.516,13.945-3.684c4.868,2.833,6.518,9.077,3.684,13.945 c-1.56,2.681-3.201,5.363-4.873,7.97C437.043,376.168,433.754,377.825,430.396,377.825z"></path> </g> </g></svg>              <img src="images/thumbnail-1.jpg" alt="thumbnail" />
+              <h2>Lorem, ipsum.</h2>
+              <p>
+    dolor ipsum dolor ipsum dolor ipsum
+              </p>
+            </div>
+            <div class="card">
+              <svg class="playbtn" height="64px" width="64px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-51.2 -51.2 614.40 614.40" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle style="fill:<svg viewBox=" 0="" 32="" 32"="" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 32 32"><path d="M16 0C7.164 0 0 7.164 0 16s7.164 16 16 16 16-7.164 16-16S24.836 0 16 0zm-6 24V8l16.008 8L10 24z" fill="#4a90e2" class="fill-4e4e50"></path>;" cx="256" cy="256" r="245.801"&gt;</circle> <polygon style="fill:#3f91ee;" points="195.825,391.629 376.351,256 195.825,120.371 "></polygon> <g> <path style="fill:#3f91ee;" d="M256,512c-68.381,0-132.667-26.628-181.019-74.98C26.628,388.667,0,324.38,0,256 S26.628,123.333,74.981,74.98C123.333,26.628,187.619,0,256,0s132.667,26.628,181.019,74.98C485.372,123.333,512,187.62,512,256 s-26.628,132.667-74.981,181.02C388.667,485.372,324.381,512,256,512z M256,20.398C126.089,20.398,20.398,126.089,20.398,256 S126.089,491.602,256,491.602S491.602,385.911,491.602,256S385.911,20.398,256,20.398z"></path> <path style="fill:#3f91ee;" d="M195.824,401.828c-1.553,0-3.115-0.355-4.557-1.075c-3.458-1.727-5.641-5.26-5.641-9.124V120.371 c0-3.864,2.185-7.397,5.641-9.124c3.458-1.726,7.593-1.351,10.685,0.97l180.526,135.629c2.564,1.927,4.073,4.948,4.073,8.154 s-1.508,6.228-4.073,8.154L201.951,399.783C200.15,401.137,197.994,401.828,195.824,401.828z M206.024,140.791v230.418L359.371,256 L206.024,140.791z"></path> <path style="fill:#3f91ee;" d="M256,473.243c-5.632,0-10.199-4.566-10.199-10.199c0-5.633,4.567-10.199,10.199-10.199 c52.815,0,102.404-20.633,139.633-58.1c3.973-3.996,10.429-4.015,14.425-0.045c3.995,3.971,4.016,10.428,0.046,14.424 C369.016,450.471,314.287,473.243,256,473.243z"></path> <path style="fill:#3f91ee;" d="M430.396,377.825c-1.886,0-3.793-0.522-5.498-1.617c-4.741-3.041-6.118-9.351-3.076-14.092 c1.514-2.36,2.998-4.788,4.411-7.216c2.834-4.867,9.077-6.516,13.945-3.684c4.868,2.833,6.518,9.077,3.684,13.945 c-1.56,2.681-3.201,5.363-4.873,7.97C437.043,376.168,433.754,377.825,430.396,377.825z"></path> </g> </g></svg>              <img src="images/thumbnail-1.jpg" alt="thumbnail" />
+                            <h2>Lorem, ipsum.</h2>
+                            <p>
+                              Lorem ipsum lorem ipsum lorem lorem ipsum
+                            </p>
+                          </div>
+                          <div class="card">
+                            <svg class="playbtn" height="64px" width="64px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-51.2 -51.2 614.40 614.40" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle style="fill:<svg viewBox=" 0="" 32="" 32"="" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 32 32"><path d="M16 0C7.164 0 0 7.164 0 16s7.164 16 16 16 16-7.164 16-16S24.836 0 16 0zm-6 24V8l16.008 8L10 24z" fill="#4a90e2" class="fill-4e4e50"></path>;" cx="256" cy="256" r="245.801"&gt;</circle> <polygon style="fill:#3f91ee;" points="195.825,391.629 376.351,256 195.825,120.371 "></polygon> <g> <path style="fill:#3f91ee;" d="M256,512c-68.381,0-132.667-26.628-181.019-74.98C26.628,388.667,0,324.38,0,256 S26.628,123.333,74.981,74.98C123.333,26.628,187.619,0,256,0s132.667,26.628,181.019,74.98C485.372,123.333,512,187.62,512,256 s-26.628,132.667-74.981,181.02C388.667,485.372,324.381,512,256,512z M256,20.398C126.089,20.398,20.398,126.089,20.398,256 S126.089,491.602,256,491.602S491.602,385.911,491.602,256S385.911,20.398,256,20.398z"></path> <path style="fill:#3f91ee;" d="M195.824,401.828c-1.553,0-3.115-0.355-4.557-1.075c-3.458-1.727-5.641-5.26-5.641-9.124V120.371 c0-3.864,2.185-7.397,5.641-9.124c3.458-1.726,7.593-1.351,10.685,0.97l180.526,135.629c2.564,1.927,4.073,4.948,4.073,8.154 s-1.508,6.228-4.073,8.154L201.951,399.783C200.15,401.137,197.994,401.828,195.824,401.828z M206.024,140.791v230.418L359.371,256 L206.024,140.791z"></path> <path style="fill:#3f91ee;" d="M256,473.243c-5.632,0-10.199-4.566-10.199-10.199c0-5.633,4.567-10.199,10.199-10.199 c52.815,0,102.404-20.633,139.633-58.1c3.973-3.996,10.429-4.015,14.425-0.045c3.995,3.971,4.016,10.428,0.046,14.424 C369.016,450.471,314.287,473.243,256,473.243z"></path> <path style="fill:#3f91ee;" d="M430.396,377.825c-1.886,0-3.793-0.522-5.498-1.617c-4.741-3.041-6.118-9.351-3.076-14.092 c1.514-2.36,2.998-4.788,4.411-7.216c2.834-4.867,9.077-6.516,13.945-3.684c4.868,2.833,6.518,9.077,3.684,13.945 c-1.56,2.681-3.201,5.363-4.873,7.97C437.043,376.168,433.754,377.825,430.396,377.825z"></path> </g> </g></svg>              <img src="images/thumbnail-1.jpg" alt="thumbnail" />
+                                          <h2>Lorem, ipsum.</h2>
+                                          <p>
+                                            lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                                          </p>
+                                        </div>
+          </div>
+        </div>
+<div class="audioplayer">
+  <div class="backaudio">
+    <img src="images/backaudio.svg" alt="">
+  </div>
+  <div class="pausebtn">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" color="#4a90e2" fill="none">
+    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" />
+    <path d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z" fill="currentColor" />
+</svg>
+ </div class="nextaudio">
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" color="#4a90e2" fill="none">
+  <path d="M15.9351 12.6258C15.6807 13.8374 14.327 14.7077 11.6198 16.4481C8.67528 18.3411 7.20303 19.2876 6.01052 18.9229C5.60662 18.7994 5.23463 18.5823 4.92227 18.2876C4 17.4178 4 15.6118 4 12C4 8.38816 4 6.58224 4.92227 5.71235C5.23463 5.41773 5.60662 5.20057 6.01052 5.07707C7.20304 4.71243 8.67528 5.6589 11.6198 7.55186C14.327 9.29233 15.6807 10.1626 15.9351 11.3742C16.0216 11.7865 16.0216 12.2135 15.9351 12.6258Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+  <path d="M20 5V19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+</svg>
+</div>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
